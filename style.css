@@ -44,6 +44,8 @@ a:visited{
 #foto{
     border-radius: 40px;
     width: 300px;
+    padding: 5px;
+    background-color: #4B296B;
     
 }
 
@@ -79,4 +81,39 @@ h1{
 em {
     text-transform: none;
     font-style: normal;
+}
+
+.block {
+    
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.about{
+    float: right;
+    width: 50%;
+    margin: 105px 40px;
+
+}
+
+.porfile{
+    width: 45%;
+    float: left;
+    position: absolute;
+    left: 200px;
+   
+}
+
+.about p{
+    margin-right: 140px;
+    
+}
+
+.skills li:nth-of-type(odd){
+    font-weight: bold;
+}
+
+.skills{
+    padding: 50px;
 }
