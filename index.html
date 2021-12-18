@@ -1,58 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="nav-bar">
-             <ul>
-                <li><a href="#Sobre">Sobre mim</a></li>
-                <li><a href="#Habilidades">Habilidades</a></li>
-            </ul>                
-        </div>
+    <head>
+        <nav class="nav-bar">
+            <ul>
+               <li><a href="#about">About me</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#project">Project</a></li>
+           </ul>                
+        </nav>
+    </head>
+    <main>
+        <section id="about">
+            <h2><em>About me</em></h2>
+            <h1><a href="#Foto">Paula Salino Ribeiro</a></h1>
+            <img id="foto" src="/assets/FotoDePerfil.jpeg" alt="Foto de Perfil">
+            <p>
+                I'm  from a small town city of Minas Gerais, (Ubá/ Brazil) and atcually a live in Rio de Janeiro city, I have a chemistry degree and did have opportunite of working how research in enhanced recover oil. <br>
+                Today  I'm student of web software developer at Trybe and I belive that tecnology is able to transform the people lifes. <br>
+                In my free time I like of read, traveling, fotograph and spend time with my family and friends 
+            </p>
+            <ul>
+                <li><a href="https://github.com/PaulaSalinoRibeiro" target="_blank"><img src="assets/github.svg" alt="github" width="50px"></a></li>
+                <li><a href="https://www.linkedin.com/in/paula-ribeiro-2457685a/" target="_blank"><img src="assets/linkedin.svg" alt="linkedin" width="50px"></a></li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Unix</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section id="project">
+            <h2>Project</h2>
+            <ul>
+                <li>Playgroud functions</li>
+                <li>Pixels art</li>
+                <li>Color guess</li>
+                <li>To do list</li>
+            </ul>
+        </section>
+    </main>
 
-        <div class="block">
-            <div class="porfile">
-                <h1><a href="#Foto">Paula Salino Ribeiro</a></h1>
-                <img id="foto" src="/assets/FotoDePerfil.jpeg" alt="Foto de Perfil">
+    
+
+        
+
+       
+
+        
                 
-                <ul>
-                    <li><a href="https://github.com/PaulaSalinoRibeiro" target="_blank"><img src="assets/github.svg" alt="github" width="50px"></a></li>
-                    <li><a href="https://www.linkedin.com/in/paula-ribeiro-2457685a/" target="_blank"><img src="assets/linkedin.svg" alt="linkedin" width="50px"></a></li>
-                </ul>
-            </div>
-
-            <div class="about">
-                <h2 id="Sobre"><em>Sobre mim:</em></h2>
-                <p>
-                    Sou do interior de Minas Gerais e atualmente resido na cidade do <strong>Rio de Janeiro</strong>, tenho formação em química e tive a oprotunidade de trabalhar como pesquisadora na área de recuperação avançada de petroleo. Hoje sou estudante de desenvolvimento de software web na <strong class="trybe">Trybe</strong>, pois acredito que a tecnologia é capaz de transformar a vida das pessoas! <br>
-                    No meu tempo livre eu gosto de ler, viajar, fotografar, passar tempo com minha família e amigos. 
-                </p>
-            </div>
-        </div>
-
-        <div class="skills">
-            <h2 id="Habilidades"><em>Habilidades:</em></h2>
-                <h3><em>Hard Skill</em></h3>
-                <ul>
-                    <li>Unix e Bash</li>
-                    <li>Git e GitHub</li>
-                    <li>HTML e CSS</li>
-                </ul>
-                <h3><em>Soft Skill</em></h3>
-                <ul>
-                    <li>Autolideraça</li>
-                    <li>Gestão de tempo</li>
-                    <li>Empatia</li>
-                    <li>Comunicação assertiva</li>
-                    <li>Determinação</li>
-                    <li>Resiliencia</li>
-                </ul>
-        </div>
-    </div>
+                
+   
 </body>
 </html>
