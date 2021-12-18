@@ -1,119 +1,101 @@
-
-/* body{
+body{
     margin: 0;
-    height: 100%;
-    color: black;
-} */
+    padding: 0%;
+    background: linear-gradient(-150deg, rgb(51, 5, 138), rgb(180, 39, 175));  /* From https://github.com/Gonzagadavid/linear-gradient-CSS*/
+    color: white;
+    font-family: Helvetica;
+}
 
-/* .container{
-    text-align: center;
-    background: linear-gradient(220deg, rgb(114, 42, 143),rgb(98, 88, 212)); 
-    
-} */
-
-/* a{
-    text-decoration: none;
-} */
-
-/* ul{
+.nav-bar ul li {
     list-style-type: none;
-    margin: 0; /* corrigi a margem superior: inspecionar elemento  
-} */
-
-/* a:visited{
-    color: black
-} */
-
-/* .nav-bar{
-    top: 0;
-    width: 100%;
-
-
-} */
-
-/* .nav-bar li {
-    font-size: 20px;
-    font-family: Helvetica;
-    font-weight: bold;
     display: inline-block;
-    margin: 20px 50px;
-    padding: 20px
-    
-    
-} */
+    font-weight: 700;
+    font-size: 20px;  
+}
 
-/* #foto{
-    border-radius: 40px;
-    width: 300px;
-    padding: 5px;
-    background-color: #4B296B;
-    
-} */
+.nav-bar ul {
+    margin-left: 10%;
+}
 
-/* h1{
-    font-family: Verdana;
-           
-} */
-
-/* .porfile li{
-    display: inline-block;
-        
-} */
-
-/* .about, .skills{
-    font-family: Helvetica;
-    text-align: justify;
-    width: 50%;
-    display: inline-block; /* centraliza o conteúdo na página
-    line-height: 25px;
-    font-weight: 400;
-   
-} */
-/* 
-.trybe, h2, h3 {
+.nav-bar ul li a {
+    text-decoration: none;
     text-transform: uppercase;
-} */
-/* 
-.skills ul li {
-    list-style-type:square;
-} */
+    margin-left: 20px;
 
-/* em {
-    text-transform: none;
-    font-style: normal;
-} */
+}
 
-/* .block {
-    
-    width: 100%;
-    display: inline-block;
-    
-} */
+a:visited {
+    color: white;
+}
 
-/* .about{
-    float: right;
-    width: 50%;
-    margin: 105px 40px;
+#about {
+    margin: 10px 80px;
+    background: rgba(255, 255, 255, 0.22);     /* From https://css.glass */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+}
 
-} */
+#picture {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px groove white;
+    margin-top: 60px;
+    margin-left: 150px;
+}
 
-/* .porfile{
-    width: 45%;
-    float: left;
+h1 {
+    margin-left: 175px;
+    font-size: 35px;
+}
+
+p {
+    font-size: 18px;
     position: absolute;
-    left: 200px;
-   
-} */
+    width: 800px;
+    left: 580px;
+    top: 140px;
+    line-height: 30px;
+}
 
-/* .about p{
-    margin-right: 140px;
-    
-} */
+#about ul {
+    list-style-type: none;
+    margin-left: 950px;
+}
 
-/* .skills li:nth-of-type(odd){
+#about ul li {
+    display: inline;
+}
+
+#skills {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+#skills ul li {
+    list-style-type:square;
+    line-height: 25px;
+    text-transform: uppercase;  
+}
+
+#skills li:nth-of-type(even){
     font-weight: bold;
-} */
+} 
 
-/* .skills{
-    padding: 50px;
-} */
+#project {
+    display: inline-block;
+    margin-left: 550px;
+    position: absolute;
+}
+
+#project ul li {
+    list-style-type:square;
+    line-height: 25px;
+    text-transform: uppercase; 
+}
+
+#project li:nth-of-type(odd){
+    font-weight: bold;
+} 
