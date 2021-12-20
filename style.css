@@ -96,6 +96,10 @@ p {
     text-transform: uppercase; 
 }
 
+#project ul li a {
+    text-decoration: none;
+}
+
 #project li:nth-of-type(odd){
     font-weight: bold;
 } 
